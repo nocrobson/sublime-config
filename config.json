@@ -1,0 +1,10 @@
+[
+	{ "keys": ["ctrl+p"], "command": "new_window" },
+	{ "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}  },
+	{ "keys": ["ctrl+pagedown"], "command": "move", "args": {"by": "subword_ends", "forward": true}},
+	{ "keys": ["ctrl+pageup"], "command": "move", "args": {"by": "subwords", "forward": false}  },
+	{ "keys": ["alt+left"], "command": "prev_view"},
+	{ "keys": ["alt+right"],  "command": "next_view"},
+	{ "keys": ["ctrl+shift+k"], "command": "yank" },
+	{ "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+]
